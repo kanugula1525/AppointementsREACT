@@ -1,0 +1,97 @@
+/* Write your CSS here */
+.mainContainer {
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  padding: 50px;
+}
+
+.miniContainer {
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  padding: 70px;
+}
+
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-family: 'Roboto';
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.labelStyle {
+  font-size: 12px;
+  color: #b5b7c4;
+  margin-bottom: 7px;
+  font-weight: 600;
+}
+
+.inputStyle {
+  border: solid 1px #b5b7c4;
+  padding: 10px;
+  width: 400px;
+  height: 40px;
+  border-radius: 3px;
+  outline: none;
+}
+
+.addButtonStyle {
+  border-style: none;
+  padding: 8px;
+  width: 55px;
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+.horizontalRule {
+  border: solid 1px #b5b7c4;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.bottomTitleSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.normalButtonStyle {
+  outline: none;
+  border: solid 1px #9897f0;
+  color: #9897f0;
+  font-weight: 600;
+  padding: 5px;
+  width: 90px;
+  background-color: transparent;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.blueButtonStyle {
+  outline: none;
+  border-style: none;
+  background-color: #9897f0;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 5px;
+  width: 90px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.AppointmentItemListContainer {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
